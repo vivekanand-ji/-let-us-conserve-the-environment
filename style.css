@@ -1,0 +1,461 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    height:100vh;
+
+    /* PROFESSIONAL BACKGROUND */
+    background: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+    color:white;
+}
+
+/* TOP BAR */
+.topnav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background: rgba(0,0,0,0.5);
+   }
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.right{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+
+.right a{
+    background:#95b89b;
+    color:black;
+    padding:8px 18px;
+    border-radius:2px;
+    text-decoration:none;
+    margin-left:12px;
+    font-size:17px;
+    font-weight:700;
+    transition:0.3s;
+    margin-top:6px;
+}
+
+.right a:hover{
+    background:white;
+    transform:scale(1.1);
+}
+
+.right a:hover{
+    color:#00ffcc;
+}
+
+/* CENTER CONTENT */
+.main{
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.title{
+    font-size:60px;
+    margin:0;
+    letter-spacing:2px;
+}
+
+.subtitle{
+    font-size:20px;
+    margin-top:10px;
+    opacity:0.9;
+}
+
+/* BUTTON */
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#00ffcc;
+    color:black;
+    font-size:18px;
+    text-decoration:none;
+    border-radius:30px;
+    transition:0.4s;
+}
+
+.btn:hover{
+    background:white;
+    transform:scale(1.1);
+}
+
+/* FOOTER */
+.footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    background:rgba(0,0,0,0.4);
+    padding:4px;
+    font-size:14px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 35px;
+    background:#00A86B;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background: white;
+    transform: scale(1.1);
+}
+
+/* FOOTER FIXED */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* CONTACT PAGE FOREST + SEA BACKGROUND */
+.contact-bg{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* FULL SCREEN SECTION */
+.contact-full{
+    padding: 80px 0;
+}
+
+/* RECTANGULAR FORM BOX */
+.form-box{
+    width: 500px;
+    margin: auto;
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* INPUTS */
+.form-box input,
+.form-box textarea{
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* BUTTON */
+.form-box button{
+    margin-top: 20px;
+    background: #00ffcc;
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-box button:hover{
+    background: white;
+}
+
+/* SUCCESS MESSAGE BOX */
+#messageBox{
+    display:none;
+    margin-top:25px;
+    padding:20px;
+    background: rgba(0,255,150,0.2);
+    border:2px solid #00ff99;
+    border-radius:10px;
+    color:#00ff99;
+}
+
+/* BIG TEXT */
+#messageBox h2{
+    font-size:26px;
+    margin:0;
+}
+
+/* THANK YOU TEXT */
+#messageBox p{
+    margin-top:5px;
+    font-size:16px;
+    color:white;
+}
+/* EXPLORE PAGE BACKGROUND */
+.explore-bg{
+    background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADING */
+.explore-section h1{
+    text-align:center;
+    margin-top:40px;
+    font-size:35px;
+    color:black;
+}
+
+/* CARD LAYOUT */
+.card-container{
+    width:85%;
+    margin:40px auto;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+/* CARD STYLE */
+.card{
+    width:22%;
+    background: rgba(0,0,0,0.6);
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    transition:0.4s;
+}
+
+/* IMAGE */
+.card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+}
+
+/* TEXT */
+.card h2{
+    padding:5px;
+    font-size:18px;
+}
+
+/* HOVER EFFECT */
+.card:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px rgba(0,255,150,0.6);
+}
+
+/* ================= CAUSES PAGE ================= */
+
+/* COOL BACKGROUND COLOR */
+.causes-bg{
+    background: linear-gradient(to right, #04568a , #FFF2D7); /* dark cool gradient */
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* GLASS CONTAINER */
+.glass-container{
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.05);
+    border: 2px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1400px;
+    margin: 60px auto;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+/* HEADING */
+.glass-container h1{
+    text-align:left;
+    font-size:44px;
+    color:white;
+    margin-bottom:40px;
+}
+
+/* CARD CONTAINER (horizontal scroll for small screens) */
+.card-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    gap:20px;
+}
+
+/* INDIVIDUAL CARD */
+.card{
+    flex:1 1 30%; /* responsive width */
+    background: rgba(0.55,0.234,0.000,0.950);
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    color:white;
+    transition:0.4s;
+    backdrop-filter: blur(5px);
+}
+
+/* CARD IMAGE */
+.card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+/* CARD TITLE */
+.card h2{
+    padding:15px 10px 5px 10px;
+    font-size:20px;
+}
+
+/* CARD DESCRIPTION */
+.card p{
+    padding:0 15px 15px 15px;
+    font-size:16px;
+    line-height:1.4;
+}
+
+/* ================= SOLUTIONS TABLE STYLING ================= */
+.table-container{
+    overflow-x:auto; /* allows horizontal scroll on small screens */
+    margin-top:20px;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    background: rgba(255,255,255,0.1); /* slightly lighter for contrast */
+    backdrop-filter: blur(5px);
+    border-radius:10px;
+    overflow:hidden;
+    border: 2px solid rgba(0,0,0,0.3); /* outer border */
+}
+
+table th, table td{
+    border:3px solid rgba(0,0,0,0.3); /* proper inner borders */
+    padding:12px;
+    text-align:left;
+    color:black; /* text color black */
+    font-size:22px;
+}
+
+table th{
+    background: rgba(255,255,255,0.3); /* header lighter for contrast */
+    font-size:22px;
+    color:black;
+}
+
+table tr:hover{
+    background: rgba(0,255,150,0.1); /* subtle hover highlight */
+}
+
+/* IMAGES IN TABLE */
+.table-img{
+    width:150px;
+    height:90px;
+    object-fit:cover;
+    border-radius:5px;
+    margin-right:1px;
+    vertical-align:middle;
+}
+
+/* ================= IMAGINE PAGE ================= */
+
+.explore-section{
+    padding:50px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction:column;
+}
+
+.glass-container{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(8px);
+    border-radius:20px;
+    padding:30px;
+    max-width:900px;
+    margin:auto;
+}
+
+.glass-container h1{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:20px;
+    color:black;
+}
+
+/* VIDEO CHOICE CARDS */
+.video-choice-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:space-around;
+    margin-top:25px;
+    
+}
+
+.video-card{
+    flex:1 1 200px;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    background: rgba(255, 255, 255);
+    padding:0;
+    cursor:pointer;
+    position:relative;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:60px;
+}
+
+.video-card:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 25px rgba(0,255,150,0.5);
+}
+
+.video-box{
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+    text-align:center;
+    text-decoration:none;
+}
+
+.video-box:hover{
+    color:#00ff96;
+}

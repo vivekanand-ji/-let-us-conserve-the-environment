@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us | Save the Environment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact-bg">
+
+<!-- TOP RIGHT HOME BUTTON -->
+<nav class="topnav">
+  <div></div>
+
+  <div class="right">
+    <a href="index.html">Home</a>
+  </div>
+</nav>
+
+<!-- CONTACT FORM -->
+<section class="contact-container">
+
+<div class="form-box">
+<div id="formArea">
+<h1>Contact Us </h1>
+<p>Tell us your details and why you want to contact us.</p>
+
+<form id="contactForm" onsubmit="showMessage(); return false;">
+
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email Address" required>
+<input type="text" placeholder="Reason for Contacting" required>
+
+<textarea placeholder="Write your message here..." rows="5" required></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+</div>
+
+<div id="messageBox">
+    <h2>Submitted Successfully!</h2>
+    <p>Thank you for visiting</p>
+</div>
+
+</div>
+
+</section>
+
+
+<script>
+function showMessage(){
+
+document.getElementById("contactForm").style.display="none";
+
+document.getElementById("messageBox").style.display="block";
+
+}
+</script>
+
+</body>
+</html>
